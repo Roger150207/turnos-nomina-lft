@@ -1,0 +1,8 @@
+target/
+build/
+dist/
+nbproject/private/
+nbactions.xml
+*.class
+*.log
+.DS_Store
