@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class TurnosNominaLft {
 
     public static void main(String[] args) {
-        Trabajador trabajador = new Trabajador ("Rogelio Saldaña", new BigDecimal ("599.99"));
-        System.out.println(" Nombre : " + trabajador.getNombre() + " Ganancia diaria : " + trabajador.getSalarioDiario() );
+        Trabajador trabajador = new Trabajador ("Rogelio Saldaña", new BigDecimal ("600.99"));
+        System.out.println(" Nombre : " + trabajador.getNombre() + " Salario Diario : " + trabajador.getSalarioDiario() );
     }
 }
