@@ -1,9 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.rogelio.turnosnominalft;
 
+import com.rogelio.turnosnominalft.modelo.Trabajador;
+import java.math.BigDecimal;
 /**
  *
  * @author rogelio_sld
@@ -11,6 +9,7 @@ package com.rogelio.turnosnominalft;
 public class TurnosNominaLft {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Trabajador trabajador = new Trabajador ("Rogelio Saldaña", new BigDecimal ("599.99"));
+        System.out.println(" Nombre : " + trabajador.getNombre() + " Ganancia diaria : " + trabajador.getSalarioDiario() );
     }
 }
